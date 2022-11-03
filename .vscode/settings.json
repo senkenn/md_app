@@ -1,0 +1,44 @@
+{
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 120,
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "importSorter.importStringConfiguration.tabSize": 2,
+  "git.autofetch": true,
+  "git.followTagsWhenSync": true,
+  "git.pruneOnFetch": true,
+  "npm.enableRunFromFolder": true,
+  "npm.packageManager": "yarn",
+  "editor.formatOnSave": false,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.stickyTabStops": true,
+  "editor.rulers": [
+    140
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.format.enable": true,
+  "eslint.packageManager": "yarn",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "git-graph.dialog.fetchRemote.prune": true,
+  "git-graph.dialog.fetchRemote.pruneTags": true,
+  "git-graph.repository.fetchAndPruneTags": true,
+  "git-graph.repository.fetchAndPrune": true,
+  "explorer.fileNesting.patterns": {
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock",
+    ".eslintrc.js": ".eslintignore",
+    "*": "${basename}.*.${extname}"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.sortOrder": "default",
+  "cSpell.words": [
+    "isnan",
+    "SENKEN",
+  ],
+}
